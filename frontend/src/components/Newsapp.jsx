@@ -46,6 +46,7 @@ const Newsapp = () => {
                 <button onClick={userInput} value="entertainment">Entertainment</button>
                 <button onClick={userInput} value="health">Health</button>
                 <button onClick={userInput} value="fitness">Fitness</button>
+                <button>Stocks</button>
             </div>
             <div>
                 {newsData ? <Cardapp data={newsData} /> : null}
